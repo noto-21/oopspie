@@ -1,0 +1,192 @@
+/*--October 3rd, 2022--*/
+
+*
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+#sitetitle
+{
+    color: white;
+
+    background-color: black;
+
+    border-style: inset;
+    border-radius: 3px;
+    border-width: 5px;
+    border-color: orangered;
+
+    text-align: center;
+}
+#sitetitle > h1
+{
+    color: yellow;
+
+    text-shadow: orange -3px 3px, blue -6px 6px, purple -9px 9px;
+}
+#sitetitle > h2
+{
+    color: olivedrab;
+    text-shadow: 1px -1px 20px orangered;
+}
+#sitetitle > img
+{
+    border: 8px double yellow;
+}
+#sitetitle > img[src *= "pietoface"]
+{
+    border: 8px blue;
+    border-style: dotted double;
+}
+
+#sitebody_piechart
+{
+    color: black;
+
+    background-color: orange;
+
+    display: inline;
+    padding-left: 4px;
+    float: right;
+
+	text-align: center;
+    font-size: 10px;
+}
+#sitebody_piechart > img[src *= "meta"]
+{
+    border: 8px blue;
+    border-style: none double solid none;
+}
+
+#sitebody_explanation
+{
+    color: white;
+
+    background-color: olive;
+
+    text-align: center;
+
+    display: inline;
+    float: left;
+}
+#sitebody_explanation > img[align *= "left"]
+{
+    border: 4px yellow;
+    border-style: none dashed dashed none;
+}
+#sitebody_explanation > img[align *= "right"]
+{
+    border: 4px blue;
+    border-style: none none dashed dashed;
+}
+#sitebody_explanation > h3
+{
+    color: yellow;
+
+    text-shadow: orange -3px 3px, blue -6px 6px, purple -9px 9px;
+
+    text-decoration: underline;
+}
+#sitebody_explanation > p[id = "familiar"]
+{
+    color: yellow;
+
+    font-size: 18pt;
+
+    text-shadow: orange -3px 3px, blue -6px 6px, purple -9px 9px;
+
+    text-decoration: overline underline;
+}
+
+#sitebody
+{
+    color: white;
+
+    text-align: center;
+}
+#sitebody > h3
+{
+    color: yellow;
+
+    font-size: 20pt;
+
+    text-shadow: orange -3px 3px, blue -6px 6px, purple -9px 9px;
+
+    text-decoration: underline;
+}
+#sitebody > p
+{
+    background-color: olive;
+}
+#sitebody > h2
+{
+    color: yellow;
+
+    background-color: olive;
+
+    font-size: 24pt;
+
+    text-shadow: orange -3px 3px, blue -6px 6px, purple -9px 9px;
+}
+#sitebody > h3[id = "posmssg"]
+{
+    color: yellow;
+
+    background-color: none;
+
+    font-size: 18pt;
+
+    text-shadow: orange -3px 3px, blue -6px 6px, purple -9px 9px;
+}
+
+#sitebody_table
+{
+    font-size: 42pt;
+
+    text-align: center;
+
+    text-shadow: orange -3px 3px, blue -6px 6px, purple -9px 9px;
+
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: gold;
+
+    background-color: goldenrod;
+
+    clear: right;
+
+    text-decoration: overline underline;
+}
+
+#sitebody_adjac
+{
+    text-align: center;
+
+    background-color: olive;
+
+    color: black;
+
+    display: inline;
+    float: right;
+
+    font-size: 14pt;
+
+    position: relative;
+    right: 41.5%;
+
+    margin-bottom: 5%;
+}
+
+body
+{
+	background-image: url(piemishap.jpg), url(RachelChandlerPieFloorSad.jpg), url(RachelChandlerPieFloorSad.jpg);
+	background-repeat: repeat-y, repeat-y, repeat-y;
+	background-position: center, left, right;
+    background-attachment: fixed, scroll, scroll;
+}
+
+a
+{
+    color: yellow;
+}

@@ -1,0 +1,73 @@
+/*--October 3rd, 2022--*/
+
+*
+{
+    background-image: url(https://pyxis.nymag.com/v1/imgs/05a/f31/60a40d4af3fa6cf11a0623e3029bd839b0.2x.rsquare.w600.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1
+{
+    color: #A40000;
+    background-color: #F0F0F0;
+
+    text-decoration: underline;
+    text-align: center;
+
+    font-size: 28pt;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#head
+{
+    color: #A40000;
+    background-color: #F0F0F0;
+
+    text-decoration: underline;
+    text-align: left;
+
+    font-size: 18pt;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', sans-serif;
+}
+
+body
+{
+    color: rgb(64, 64, 64);
+
+    font-size: 11pt;
+    font-family: 'Georgia', 'Garamond', serif;
+}
+
+a
+{
+    color: #A4A400;
+}
+
+#comments
+{
+    font-style: italic;
+
+    text-indent: 10%;
+
+    background-color: #FFFFA8;
+}
+#comments > h2
+{
+    font-style: normal;
+
+    text-indent: 0%;
+
+    background-color: transparent;
+}
+
+#cakestrike
+{
+    text-decoration: line-through;
+}
+
+#copyright
+{
+    font-family: monospace;
+}
