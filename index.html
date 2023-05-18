@@ -13,13 +13,20 @@
         <link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
 
         <script>
-          document.addEventListener('DOMContentLoaded', stopMeddlingWithMyStyles = () =>
-          {
-            var styleElement = document.querySelector('style[data-styled]');
-            if (styleElement) {
-              styleElement.remove();
-            }
-          });
+            document.addEventListener('DOMContentLoaded', () => 
+            {
+                const observer = new MutationObserver(() => 
+                {
+                    const styleElement = document.querySelector('style[data-styled]');
+                    if (styleElement) 
+                    {
+                        styleElement.remove();
+                        observer.disconnect();//Stop observing mutations once the tag is removed
+                    }
+                });
+    
+                observer.observe(document.head, { childList: true });//Observe changes in the head element
+            });
         </script>
 
       </head>
