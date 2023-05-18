@@ -9,13 +9,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>OOPSPIE.COM</title>
-        <link rel = "stylesheet"  type = "text/css"  href = "index.css">
-        <link href = '//fonts.googleapis.com/css?family=Oswald'  rel = 'stylesheet'  type = 'text/css'>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+
+        <script>
+          document.addEventListener('DOMContentLoaded', stopMeddlingWithMyStyles = () =>
+          {
+            var styleElement = document.querySelector('style[data-styled]');
+            if (styleElement) {
+              styleElement.remove();
+            }
+          });
+        </script>
+
       </head>
       
-      <script>
-        document.querySelector('style[data-styled]').remove();
-      </script>
 
     <body>
         <div id = "sitetitle">
